@@ -1,0 +1,247 @@
+@charset "UTF-8";
+/* CSS Document */
+#main{
+	margin-top:40px;
+}
+/*アイテムページ*/
+.itemBox{
+	width: 100%;
+	display: inline-block;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #828282;
+}
+#left{
+	width:560px;
+	float:left;
+}
+#leftImg{
+	margin-right:20px;
+	width:40px;
+	float:left;
+}
+#leftImg ul{
+	list-style:none;
+	width:100%;
+}
+#leftImg ul li{
+	width:40px;
+	height:40px;
+}
+#leftImg ul li img{
+	width:40px;
+	height:40px;
+}
+/*メインイメージ*/
+#mainImg{
+	width:500px;
+	height:500px;
+	float:right;
+}
+#mainImg img{
+	width:470px;
+	height:470px;
+	float:right;
+}
+/*アイテムメインページ右*/
+#right{
+	width:400px;
+	float:right;
+}
+.rightInner{
+	width:360px;
+	margin-left:20px;
+}
+/*アイテムメインページ右 上部*/
+.rightTop{
+	border-bottom:1px solid #000;
+}
+.rightTop h1{
+	font-size:18px;
+	margin:10px 0;
+}
+.rightTop h2{
+	text-align:right;
+	font-size:10px;
+	color:#777777;
+}
+.itemValue{
+	margin-top:10px;
+	text-align:right;
+	text-decoration:none;
+	font-size:20px;
+	color:rgba(255,0,4,1.00);
+}
+.itemValue .orgPrice{
+	text-decoration: line-through;
+	font-size:12px;
+	color:rgba(0,0,0,1.00);
+}
+.itemValue .valueTag{
+	font-size:14px;
+}
+/*他の色*/
+#atherColorItem {
+	overflow:hidden;
+}
+
+#colorImg p{
+	font-size:12px;
+	margin:4px 16px;
+}
+#colorImg li{
+	float:left;
+	list-style:none;
+}
+#colorImg img{
+	width:80px;
+	height:80px;
+}
+/*アイテムのサイズ　セレクトパーツ*/
+.kartForm{
+	position:relative;
+}
+.selectBox p{
+	float: left;
+	width: 115px;
+	height: 40px;
+	margin-left: 7px;
+	margin-top: 10px;
+	background-color: rgba(227,227,227,.8);
+	color: #fff;
+	text-align: center;
+	border-radius: 5px;
+}
+.selectBox p:first-child{
+	margin-left:0;
+}
+.selectBox p:last-child{
+	font-size:12px;
+	line-height:40px;
+	background-color:#FFA600;
+}
+.selectBox p span{
+	font-size:15px;
+	line-height:40px;
+}
+.selectBox p em{
+}
+.kartForm select{
+	display: none;
+}
+.sizeForm ul, .itemOty ul{
+	display:none;
+	text-align: center;
+	background-color: rgba(227,227,227,.8);
+	position: absolute;
+	width: 115px;
+}
+.kartForm #ulSize, .kartForm #ulKazu{
+	list-style:none;
+	float:left;
+}
+.sizeForm .selectView,.kartForm .selectView{
+	display:inline-block;
+}
+#ulSize{
+	left: 0;
+}
+#ulKazu{
+	left:122px;
+}
+#ulSize li, #ulKazu li{
+	margin:2px auto 0px;;
+	height: 30px;
+	text-aling: center;
+	line-height: 30px;
+	display: block;
+	border: 1px solid rgba(244,244,244,1.00);
+	width: 110px;
+}
+#ulSize li:hover, #ulKazu li:hover{
+	background-color:#000000;
+	color:#FFFAFA;
+}
+/*kartButton*/
+
+
+/*レビューの部分作成*/
+.summaryLink{
+	margin:10px 0;
+}
+.summaryLink div{
+	float:right;
+	font-size:12px;
+}
+/*サイズのインフォメーション*/
+.sizeInfo{
+	margin-top:10px;
+	display:inline-block;
+}
+.sizeInfo img{
+	float:left;
+	width:140px;
+}
+/*別の色の在庫表*/
+#itemColor{
+	display: flex;
+	padding-bottom: 15px;
+	margin: 15px 0;
+	border-bottom: 1px solid #BBBBBB;
+}
+.atherColor{
+	flex:1;
+}
+.atherColorInner{
+	width:216px;
+	margin:0 auto;
+}
+.atherColorInner img{
+	width:216px;
+	height:216px;
+	margin:0 auto;
+}
+.atherColorInner p span{
+	width: 70px;
+	display: block;
+	height: 30px;
+	text-align: center;
+	background-color:#E8E5E5;
+	float:left;
+	margin:1px;
+	font-size:12px;
+}
+/*他のおすすめ商品*/
+#athorItems{
+	display: flex;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #B4B4B4;
+}
+/*商品詳細*/
+#itemInfo{
+	width:860px;
+	margin:15px auto;
+
+}
+#itemInfo p {
+	display:inline-block;
+	width:540px;
+	margin-left:20px;
+	font-size:12px;
+}
+#itemInfo img{
+	width:300px;
+	line-height:300px;
+	float:left;
+}
+#itemInfo .itemInfoTop{
+	display:inline-block;
+	padding:10px 0;
+	font-size: 25px;
+	font-weight: bold;
+}
+#itemInfo .itemInfoTitle{
+	display:inline-block;
+	padding:10px 0;
+	font-size: 20px;
+	font-weight: bold;
+}

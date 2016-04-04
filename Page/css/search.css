@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/* CSS Document */
+#searchBox{
+	display: inline-block;
+	margin: 0 auto;
+}
+  @media (min-width: 1220px) {
+	  #searchBox{
+	width: 1200px;
+	  }ß
+	  #searchMain{
+		  width:920px;
+	  }
+  }
+  @media (min-width: 780px) and (max-width: 1220px) {
+	  #searchBox{
+	width: 1199px;
+	display: block;
+	margin: 0 auto;
+	  }
+	  #searchMain{
+		  width:740px;
+	  }
+  }
+/*検索結果表示部*/
+#searchMain{/* IE8以下とAndroid4.3以下用フォールバック */
+	display: inline-block;
+	margin: 0 auto;
+	width: 922px;
+}
+#searchMain h1{
+	font-size:25px;
+	font-weight:bold;
+	margin:30px 30px 20px 30px;
+}
+/*検索結果アイテム*/
+#searchItem{
+
+}
+.searchResult{
+	float:left;
+}
+/*サイドバー左*/
+#sideSearch{
+	margin: 5px;
+	padding: 10px;
+	width: 240px;
+	float: left;
+	-webkit-box-shadow: 2px 2px 10px;
+	box-shadow: 2px 2px 10px;
+}
+#sideSearch h2{
+	font-size:18px;
+	font-weight:bold;
+	margin:10px;
+}
+
+#sideSearch li{
+	margin:10px;
+	list-style: none;
+}
+/*サイドバーカラー*/
+#sideColor{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+}
+#sideColor a{
+	width: 30px;
+	height: 30px;
+	display: block;
+	border-radius: 15px;
+	background-color:#FF0004;
+	margin:5px;
+}
+/*サイドバーサイズ*/
+#sideSize{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-around;
+}
+#sideSize li{
+	margin:2px 0 0 0;
+	max-width: 50px;
+	min-width: 50px;
+	height: 35px;
+	text-align: center;
+	background-color: #303030;
+	color: #F8F8F8;
+	vertical-align: middle;
+	line-height: 35px;
+}
+#sideSport li{
+	margin:10px;
+	list-style:none;
+}

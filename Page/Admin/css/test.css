@@ -1,0 +1,77 @@
+#login{
+	position: absolute;
+	background-color: rgba(123,123,123,0.80);
+	overflow: hidden;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+#loginForm{
+	position: relative;
+	top: 50px;
+	width: 340px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	background-color: #555;
+	display: block;
+	margin: 0 auto;
+	background-color: #eee;
+	padding:10px;	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-moz-box-shadow: inset 0 0 4px rgba(0,0,0,0.2);
+	-webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.2);
+	box-shadow: inner 0 0 4px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0px 1px rgba(255, 255, 255, 0.5);
+	-moz-box-shadow: 0px 1px rgba(255, 255, 255, 0.5);
+	box-shadow: 0px 1px rgba(255, 255, 255, 0.5);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+#loginForm label{
+	width: 100%;
+	display: block;
+}
+#loginForm input, button{
+	display: block;
+	border:0;
+	padding:10px;
+	font-size:1.3em;
+	font-family:Arial, sans-serif;
+	color:#aaa;
+	border:solid 1px #ccc;
+	margin:0 auto 20px;
+	width:300px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-moz-box-shadow: inset 0 0 4px rgba(0,0,0,0.2);
+	-webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.2);
+	box-shadow: inner 0 0 4px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 0px 1px rgba(255, 255, 255, 0.5);
+	-moz-box-shadow: 0px 1px rgba(255, 255, 255, 0.5);
+	box-shadow: 0px 1px rgba(255, 255, 255, 0.5);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+#loginForm input:focus {
+    border:solid 1px #EEA34A;
+}
+#loginForm button{
+	color: #fff;
+}
+#loginForm button:nth-child(2n+1){
+	background: #FF8C00;
+}
+
+#loginForm button:nth-child(2n){
+	background: #FF0000;
+}
+.clearfix:after {
+  display: block;
+  clear: both;
+  content: "";
+}
